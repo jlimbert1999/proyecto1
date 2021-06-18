@@ -1,0 +1,57 @@
+/* CSS files add styling rules to your content */
+
+body {
+    margin: 0em;
+    font-family: "Architects Daughter", cursive;
+  }
+  .cover {
+    height: 600px;
+    background-image: url(../images/carb.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+  }
+  
+  .cover-small {
+    height: 200x;
+    background-blend-mode: normal;
+  }
+  
+  .card {
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) 0 2px 4px -1px
+      rgba(0, 0, 0, 0.06);
+  }
+  .card-title {
+    min-height: 3rem;
+  }
+  .card-text {
+    min-height: 10rem;
+  }
+  .product-stripe {
+    overflow-x: scroll;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .stripe-container {
+    display: flex;
+  }
+  .stripe-container .card {
+    width: 300px;
+    flex-shrink: 0;
+    margin-right: 1rem;
+  }
+  .responsive-iframe {
+    position: relative;
+    padding-top: 56.25%;
+  }
+  .responsive-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
